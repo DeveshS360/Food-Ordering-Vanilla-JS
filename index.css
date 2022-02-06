@@ -1,0 +1,102 @@
+body{
+    background-color: rgba(4, 94, 56, 0.3);
+}
+
+.selectAndFav{
+    display: flex;
+    justify-content: space-between;
+    flex-flow: row
+}
+
+.searchBar{
+    width: 100%;
+    box-sizing: border-box;
+    border: 2px solid black;
+    border-radius: 0.3rem;
+    padding: 1rem;
+}
+
+.favourites{
+    flex: 1 0 auto;
+    padding: 1rem;
+    color: white;
+    background-color: rgb(109, 8, 8);
+    border-radius: 0.5rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    max-width: fit-content;
+    height:max-content;
+    margin:0.5rem;
+
+}
+
+.cardsOverLay{
+    display: flex;
+    justify-content: flex-start;
+    flex-flow: row wrap;
+    gap:2rem;
+    margin:2rem;
+}
+
+.cards{
+    width: 15rem;
+    padding: 2rem;
+    background-color: white;
+    margin: 1px;
+    border: 1px solid blueviolet;
+    border-radius: 0.5rem;
+    position: relative;
+}
+
+img{
+    width:15rem;
+    height:10rem;
+    display:block;
+    border-radius: 0.5rem;
+}
+
+.location{
+    font-style: italic;
+}
+.rating{
+    display: inline-block;
+    width:max-content;
+    height:max-content;
+    background-color: orangered;
+    position: absolute;
+    right:2rem;
+    padding:0.2rem 0.5rem 0.2rem 0.5rem;
+    color: white;
+}
+
+button{
+    cursor:pointer;
+}
+
+.selectSort{
+    padding:0.5rem;
+    margin:1rem;
+    flex:5 0 auto;
+    max-width: max-content;
+}
+
+.tags{
+    font-style: oblique;
+}
+
+.eta{
+    font-variant: small-caps;
+}
+
+.favCheck{
+    padding: 1rem;
+    width:0.5rem;
+    height:0;
+    background-color:white;
+    border: 1px solid black;
+    cursor:pointer;
+    position: absolute;
+    top:0.5rem;
+    right:0.5rem;
+    z-index:1;
+    border-radius:0.5rem;
+}
